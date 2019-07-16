@@ -19,6 +19,6 @@ node {
       }
    }
    stage('Deploy') {
-      sh "'/scripts/deploy.sh' ${workspace} deploy"
+      sh "'/scripts/deploy.sh' ${workspace}\target deploy"
    }
 }
